@@ -29,8 +29,8 @@ for i in range (umur) :
         list.append(s3)
     elif kode == 4 :
         list.append(s4)
+        
 total = sum(list)
-
 tahun = int(total / 365)
 bulan = int((total - (tahun * 365)) / 30)
 hari = int(total - (tahun * 365) - (bulan * 30))
